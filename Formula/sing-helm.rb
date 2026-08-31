@@ -1,14 +1,14 @@
 class SingHelm < Formula
   desc "Lightweight sing-box configuration manager and proxy client"
   homepage "https://github.com/kyson-dev/sing-helm"
-  version "0.2.14"
+  version "0.2.15"
   
   if Hardware::CPU.arm?
-    url "https://github.com/kyson-dev/sing-helm/releases/download/v0.2.14/sing-helm-darwin-arm64"
-    sha256 "451a229f19c1949b18cb13427f15ace44d200eb379f5edbd90403cc26afd27f7"
+    url "https://github.com/kyson-dev/sing-helm/releases/download/v0.2.15/sing-helm-darwin-arm64"
+    sha256 "fec90c09e1b5e213b17c462b3b418fbf073815e9aea8ac543cb2b16e11f58563"
   else
-    url "https://github.com/kyson-dev/sing-helm/releases/download/v0.2.14/sing-helm-darwin-amd64"
-    sha256 "1cb6cda65def1e010ba072f6ea7aef5978581df1d3af70d00f0f0356fd07c90a"
+    url "https://github.com/kyson-dev/sing-helm/releases/download/v0.2.15/sing-helm-darwin-amd64"
+    sha256 "748f80cc93093890d74b549e31afa05f52c0dc1363d1842b904fb7b920e65940"
   end
 
   def install
